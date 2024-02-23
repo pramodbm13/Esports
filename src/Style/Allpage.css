@@ -1,0 +1,171 @@
+
+.home{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  color: white;
+  flex-direction: column;
+  background-size: cover;
+}
+.headerContainer{
+  width: auto;
+  margin-left: 30px;
+}
+.home .headerContainer h1{
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+.home .headerContainer p{
+  font-size: 20px;
+  margin-top: 15px;
+  padding: 0%;
+  font-weight: lighter;
+  
+}
+
+
+
+.cardname h1{ 
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+  
+  display: flex;
+}
+.card{
+  height: 400px;
+  margin: 50px;
+  box-shadow: 5px 5px 20px black;
+}
+.container img{
+  height: 500vh;
+  width: 440px;
+}
+.footer p{
+  text-align: center;
+}
+.card-body{
+  background-color: rgba(15, 1, 1, 0.285);
+}
+.intro{
+  height: 200px;
+  width: 300px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  padding: 10px 10%;
+}
+#card-area{
+  padding: 50px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+.ready{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.askqustion{
+  text-align: center;
+  font-size: 40px;
+}
+
+.accordion{
+  width: 90%;
+  background: transparent;
+  align-items: center;
+  padding-left: 120px;
+  padding-bottom: 1%;
+}
+
+.accordion-item{
+  background:rgba(128, 128, 128, 0.646);
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1),-2px -2px 8px rgba(0,0,0,0.1);
+}
+
+.accordion-body{
+  background: gray;
+  font-size: 0.7rem;
+}
+
+.accordion-body strong{
+  color: black;
+} 
+.accordion-button{
+  font-size: 0.8rem;
+  background: transparent;
+  border: 1px solid rgba(0,0,0,0.1);
+  font-weight: 500;
+}
+
+.accordion-button:focus{
+  box-shadow: none;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.accordion-button:not(.collapsed){
+  background: rgba(0,0,0,0.1);
+  color: black;
+  box-shadow: none;
+}
+
+.accordion-button::after{
+  background-image: none;
+  content:"\f0d7";
+  font-family: fontawesome;
+  width: auto;
+  height: auto;
+}
+
+.accordion-button:not(.collapsed)::after{
+  background-image: none;
+}
+
+
+.Bgmi_join{
+  padding-bottom: 30px;
+}
+
+
+.Bgmi_join .card{
+  height: 500px;
+  margin: 50px;
+}
+
+.Bgmi_join .card-body{
+  background-color: rgba(247, 241, 241, 0.285);
+}
+.Bgmi_join .card-title{
+  text-align: right;
+  color: gray;
+}
+.Bgmi_join .card-text {
+ text-align: end;
+
+}
+.Bgmi_join .details .card-item-title{
+color: gray;
+text-align: start;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .showTask li{
+      width: 100%;
+    }
+  }
